@@ -4,14 +4,29 @@
 	font-family: sans-serif;
 }
 
+.button-search:hover {
+	cursor: pointer;
+}
+
+.header {
+	background-color: #ccc;
+	padding: 20px;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+}
+
 input {
 	padding: 5px;
 }
 
 .card {
 	margin-top: 15px;
-	border: 1px solid #ccc;
+	border: 1px solid black;
 	text-align: center;
+	margin-left: 420px;
 	font-size: 20px;
 	width: 300px;
 }

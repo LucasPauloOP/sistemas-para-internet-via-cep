@@ -18,10 +18,11 @@ function App() {
 
 	return (
 		<>
-			<div>
+			<div class='header'>
 				<form>
 					<input
 						type='text'
+						placeholder='Digite seu CEP'
 						value={cep}
 						onChange={(event) => setCep(event.target.value)}
 						name='register-cep'
@@ -36,10 +37,9 @@ function App() {
 					</button>
 				</form>
 			</div>
-			<div>
+			<div className='main'>
 				{address ? (
 					<div className='card'>
-						<p className='title-card'>Endereço encontrado</p>
 						<div className='content'>
 							<p>
 								<strong>CEP: </strong>
